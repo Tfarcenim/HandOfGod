@@ -1,0 +1,6 @@
+{
+	"sucesssound" : {
+		"category" : "block",
+		"sounds" : ["handofgod:successsound"]
+	}
+}

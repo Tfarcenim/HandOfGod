@@ -1,0 +1,63 @@
+itemGroup.god=§4§lThe Hand Of God
+
+item.handOfGod.name=The Hand Of God
+
+container.handOfGod=§6Heavenly Storage
+container.handOfGod.stackCount=§6Number Of Items §b %1$d
+
+death.attack.god=%1$s was annihilated by %2$s.
+
+handOfGod.currentRange=§5Current Range
+handOfGod.killAuraRange=§5Apocalypse Aura Range
+handOfGod.killFacing=§5Eye Of Wrath
+handOfGod.areaKillRange=§5Divine Judgement Range
+handOfGod.blockReachDistance=§5Block Reach Distance
+handOfGod.surrenderArms=§5Surrender Arms
+handOfGod.inventoryDestruction=§5Inventory Destruction
+handOfGod.removeStackLimit=§5Stack Limit Removed
+handOfGod.autoPickup=§5Automatic Pick Up
+handOfGod.dropLoot=§5Drops Loot
+handOfGod.findOwner=§5Find Owner
+handOfGod.omnipresence=§5Omnipresence
+handOfGod.rayTraceToFluids=§5Raytrace To Fluids
+handOfGod.triggerBreakEvent=§5Triggers Blockbreaking Events
+handOfGod.infiniteEnergy=§5Infinite Energy
+handOfGod.trueInvisibility=§5True Invisibility
+handOfGod.trueVision=§5True Vision
+handOfGod.noclip=§5Noclip
+handOfGod.thorns=§5God Thorns
+handOfGod.spiteKill=§cSpite Kill
+handOfGod.silencedDeath=§cSilenced Death
+handOfGod.killFriendly=§1Kill Friendly
+handOfGod.killAll=§1Kill All
+handOfGod.kickPlayer=§4§lKick Player
+handOfGod.beyondRedemption=§4§lBeyond Redemption
+handOfGod.izanami=§4§lIzanami
+
+handOfGod.speed=「ABSOLUTE ∞」
+handOfGod.damage=「ABSOLUTE ∞」
+
+config.warning.int=§eInfo§f: The value of %1$s is %2$d.
+config.warning.double=§eInfo§f: The value of %1$s is %2$d.
+config.warning.boolean.enable=§eInfo§f: §aFunction§f %1$s has been enabled.
+config.warning.boolean.disable=§eInfo§f:: §cFunction§f %1$s has been disabled.
+config.warning.string=§eInfo§f: The value of %1$s is %2$d.
+config.warning.list=§eInfo§f: The value of %1$s is %2$d.
+config.warning.list.element=  %1$s
+config.warning.map=§eInfo§f: The value of %1$s is %2$d.
+config.warning.map.element=  %1$s
+config.warning.guiChangeList=§Info§f: The following elements can be configured by those with The Hand Of God.
+config.warning.guiChangeList.element=  %1$s
+
+entity.archangel.name=Archangel
+
+key.category.handofgod=§4§lThe Hand Of God
+key.handofgod.hand_of_god_config=§cConfigure Weapon
+key.handofgod.hand_of_god_enchantment=§cConfigure Enchantments
+key.handofgod.hand_of_god_potion=§cConfigure Potions
+key.handofgod.hand_of_god_teleport=§cTeleportation GUI
+key.handofgod.hand_of_god_container=§cOpen Heavenly Storage
+key.handofgod.hand_of_god_container_blacklist=§cOpen Heavenly Storage Blacklist
+key.handofgod.hand_of_god_change_gamemode=§cChange Gamemode
+key.handofgod.hand_of_god_toggle_archangel=§cSummon/Disperse Archangel
+key.handofgod.hand_of_god_toggle_perfect_cleanse=§6§lToggle Cleansing

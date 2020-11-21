@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "system00.handofgod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.handofgod.refmap.json",
+  "mixins": [
+    "asmEventMixin",
+    "ChaosUpdateEventMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
