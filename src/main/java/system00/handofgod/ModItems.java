@@ -14,7 +14,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @Mod.EventBusSubscriber
 public class ModItems {
 
-	public final static Item handOfGod = new Item().setCreativeTab(CreativeTabs.MISC);
+	public final static Item handOfGod = new ItemHandOfGod().setCreativeTab(CreativeTabs.MISC);
 
 	@SubscribeEvent
 	public static void registerItem(RegistryEvent.Register<Item> event) {

@@ -35,6 +35,13 @@ public class asmEventMixin {
         }
     }
 
+    @Inject(method = "removeEntityDangerously",at = @At("RETURN"),cancellable = true ,remap = false)
+    private static void intercept$removeEntityDangerously(World world, Entity entity, CallbackInfo ci) {
+        if (Util.isGod(Minecraft.getMinecraft().player)) {
+            ci.cancel();
+        }
+    }
+
     @Inject(method = "onEntityRemoved",at = @At("RETURN"),cancellable = true ,remap = false)
     private static void intercept$onEntityRemoved(World world, Entity entity, CallbackInfo ci) {
         if (Util.isGod(Minecraft.getMinecraft().player)) {

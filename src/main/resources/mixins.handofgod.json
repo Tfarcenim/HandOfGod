@@ -5,7 +5,10 @@
   "refmap": "mixins.handofgod.refmap.json",
   "mixins": [
     "asmEventMixin",
-    "ChaosUpdateEventMixin"
+    "ChaosUpdateEventMixin",
+    "EntityChaosWitherBaseMixin",
+    "EntityChaosWitherMixin",
+    "EntityIWitherMixin"
   ],
   "client": [
   ],

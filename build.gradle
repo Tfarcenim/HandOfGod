@@ -49,9 +49,7 @@ repositories {
         url 'http://maven.blamejared.com'
     }
     maven { url = 'https://repo.spongepowered.org/maven' }
-    flatDir {
-        dirs "libs"
-    }
+
 }
 
 dependencies {
@@ -80,7 +78,7 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-    deobfCompile "ChaosWither:ChaosWither-mc1.12-0.2.3beta"
+    deobfCompile "ChaosWither:ChaosWither-mc1.12:0.2.3beta"
 
     compile 'org.spongepowered:mixin:0.8.1-SNAPSHOT'
 }
